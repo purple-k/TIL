@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 @function_tool()
 def news_search(query: str) -> str:
     """덕덕고를 사용한 뉴스 검색 핸들러 함수"""
