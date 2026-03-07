@@ -33,4 +33,3 @@ print(f"Synonyms for '{english_word['word']}':\n{english_result}\n")
 korean_word = {"word": "행복"}
 korean_result = language_aware_chain.invoke(korean_word)
 print(f"'{korean_word['word']}'의 동의어:\n{korean_result}\n")
-
